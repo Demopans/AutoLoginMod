@@ -1,4 +1,4 @@
-package com.mod.autologin.gui;
+package com.old.autologin.gui;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.util.concurrent.atomic.AtomicReference;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
 
-import com.mod.autologin.LoginData;
-import com.mod.autologin.ModMain;
+import com.old.autologin.LoginData;
+import com.old.autologin.ModMain;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;

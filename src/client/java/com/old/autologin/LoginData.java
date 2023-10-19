@@ -1,4 +1,4 @@
-package com.mod.autologin;
+package com.old.autologin;
 
 import java.util.Base64;
 import java.util.HashMap;

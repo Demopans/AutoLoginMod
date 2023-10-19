@@ -1,10 +1,10 @@
-package com.mod.autologin.gui;
+package com.old.autologin.gui;
 
 import java.io.IOException;
 import java.util.function.Consumer;
 
-import com.mod.autologin.LoginData;
-import com.mod.autologin.ModMain;
+import com.old.autologin.LoginData;
+import com.old.autologin.ModMain;
 import org.lwjgl.input.Keyboard;
 
 import net.minecraft.client.Minecraft;

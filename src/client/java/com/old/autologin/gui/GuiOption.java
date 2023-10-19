@@ -1,4 +1,4 @@
-package com.mod.autologin.gui;
+package com.old.autologin.gui;
 
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.item.ItemStack;

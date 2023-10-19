@@ -1,11 +1,11 @@
-package com.mod.autologin.gui;
+package com.old.autologin.gui;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.mod.autologin.ModMain;
+import com.old.autologin.ModMain;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;

@@ -1,4 +1,4 @@
-package com.mod.autologin.gui;
+package com.old.autologin.gui;
 
 import java.util.Set;
 

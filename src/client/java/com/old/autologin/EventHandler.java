@@ -1,10 +1,10 @@
-package com.mod.autologin;
+package com.old.autologin;
 
 import java.lang.reflect.Field;
 
-import com.mod.autologin.LoginData.LoginDataType;
-import com.mod.autologin.gui.GuiAlButton;
-import com.mod.autologin.gui.GuiPasswordBox;
+import com.old.autologin.LoginData.LoginDataType;
+import com.old.autologin.gui.GuiAlButton;
+import com.old.autologin.gui.GuiPasswordBox;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;

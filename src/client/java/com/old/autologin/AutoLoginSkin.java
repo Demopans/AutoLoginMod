@@ -1,6 +1,6 @@
-package com.mod.autologin;
+package com.old.autologin;
 
-import com.mod.autologin.gui.GuiOption;
+import com.old.autologin.gui.GuiOption;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 

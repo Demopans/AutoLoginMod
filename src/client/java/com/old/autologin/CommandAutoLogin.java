@@ -1,9 +1,9 @@
-package com.mod.autologin;
+package com.old.autologin;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mod.autologin.gui.GuiPasswordBox;
+import com.old.autologin.gui.GuiPasswordBox;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.command.CommandException;

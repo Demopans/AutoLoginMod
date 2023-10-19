@@ -1,4 +1,4 @@
-package com.mod.autologin.gui;
+package com.old.autologin.gui;
 
 import org.lwjgl.opengl.GL11;
 

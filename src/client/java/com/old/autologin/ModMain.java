@@ -1,4 +1,4 @@
-package com.mod.autologin;
+package com.old.autologin;
 
 import java.io.File;
 import java.security.MessageDigest;
@@ -7,11 +7,11 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.mod.autologin.gui.GuiAlButton;
+import com.old.autologin.gui.GuiAlButton;
 import com.google.gson.Gson;
 
-import com.mod.autologin.gui.GuiOption;
-import com.mod.autologin.gui.GuiPasswordField;
+import com.old.autologin.gui.GuiOption;
+import com.old.autologin.gui.GuiPasswordField;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;

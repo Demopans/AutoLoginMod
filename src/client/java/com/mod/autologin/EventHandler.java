@@ -1,10 +1,10 @@
-package fr.atesab.autologin;
+package com.mod.autologin;
 
 import java.lang.reflect.Field;
 
-import fr.atesab.autologin.LoginData.LoginDataType;
-import fr.atesab.autologin.gui.GuiAlButton;
-import fr.atesab.autologin.gui.GuiPasswordBox;
+import com.mod.autologin.LoginData.LoginDataType;
+import com.mod.autologin.gui.GuiAlButton;
+import com.mod.autologin.gui.GuiPasswordBox;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;

@@ -1,4 +1,4 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import org.lwjgl.opengl.GL11;
 
@@ -7,8 +7,6 @@ import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.util.text.TextFormatting;
 import static net.minecraft.util.math.MathHelper.clamp;
-
-import java.awt.Color;
 
 public class GuiAlButton extends GuiButton {
 

@@ -38,6 +38,9 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// ViaFabricPlus. Technically not needed, but saves me the trouble of maintaining multiple versions for compatibility when there's a mod that does that for me
+	implementation ("de.florianmichael:viafabricplus:${project.viaFabricPlus_version}")
 	
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.

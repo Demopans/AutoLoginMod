@@ -1,8 +1,6 @@
-package fr.atesab.autologin;
+package com.mod.autologin;
 
-import fr.atesab.autologin.gui.GuiAlButton;
-import fr.atesab.autologin.gui.GuiOption;
-import fr.atesab.autologin.gui.GuiPasswordBox;
+import com.mod.autologin.gui.GuiOption;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 

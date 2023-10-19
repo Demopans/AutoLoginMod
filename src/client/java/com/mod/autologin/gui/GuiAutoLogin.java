@@ -1,4 +1,4 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,10 +11,8 @@ import java.util.concurrent.atomic.AtomicReference;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
 
-import fr.atesab.autologin.ModMain;
-import fr.atesab.autologin.LoginData;
-import fr.atesab.autologin.LoginData.LoginDataType;
-import fr.atesab.autologin.gui.GuiAlButton.TextAlign;
+import com.mod.autologin.LoginData;
+import com.mod.autologin.ModMain;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;
@@ -164,7 +162,7 @@ public class GuiAutoLogin extends GuiAl {
 											String[] data = new String(Base64.getDecoder().decode(d)).split(",", 2);
 											if (data.length == 2) {
 												subMap.put(ModMain.hash(data[0]), new LoginData("/login %s",
-														"/register %s %s", data[1], LoginDataType.AUTO));
+														"/register %s %s", data[1], LoginData.LoginDataType.AUTO));
 											}
 										});
 							}

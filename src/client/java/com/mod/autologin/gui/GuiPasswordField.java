@@ -1,9 +1,9 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 
-import fr.atesab.autologin.ModMain;
+import com.mod.autologin.ModMain;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;

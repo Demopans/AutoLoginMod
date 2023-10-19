@@ -1,10 +1,9 @@
-package fr.atesab.autologin;
+package com.mod.autologin;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.atesab.autologin.gui.GuiAutoLogin;
-import fr.atesab.autologin.gui.GuiPasswordBox;
+import com.mod.autologin.gui.GuiPasswordBox;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.command.CommandException;

@@ -1,13 +1,12 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import java.io.IOException;
 import java.util.function.Consumer;
 
+import com.mod.autologin.LoginData;
+import com.mod.autologin.ModMain;
 import org.lwjgl.input.Keyboard;
 
-import fr.atesab.autologin.LoginData;
-import fr.atesab.autologin.ModMain;
-import fr.atesab.autologin.LoginData.LoginDataType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
@@ -69,7 +68,7 @@ public class GuiPasswordBox extends GuiAl {
 		switch (button.id) {
 		case 0:
 			if (checkPass()) {
-				if (data.getType() != LoginDataType.DISABLE)
+				if (data.getType() != LoginData.LoginDataType.DISABLE)
 					data.password(password.getText());
 				if (setter != null)
 					setter.accept(data);
@@ -78,7 +77,7 @@ public class GuiPasswordBox extends GuiAl {
 			mc.displayGuiScreen(parent);
 			break;
 		case 2:
-			LoginDataType[] types = LoginDataType.values();
+			LoginData.LoginDataType[] types = LoginData.LoginDataType.values();
 			data.type(types[(data.getType().ordinal() + 1) % types.length]);
 			updateBox();
 			break;
@@ -87,7 +86,7 @@ public class GuiPasswordBox extends GuiAl {
 	}
 
 	private boolean checkPass() {
-		return data.getType() != LoginDataType.AUTO || ((!checkOld || ((checkOld && data.match(oldPassword.getText()))))
+		return data.getType() != LoginData.LoginDataType.AUTO || ((!checkOld || ((checkOld && data.match(oldPassword.getText()))))
 				&& password.getText().equals(passwordAgain.getText()));
 	}
 

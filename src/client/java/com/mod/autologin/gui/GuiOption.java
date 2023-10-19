@@ -1,4 +1,4 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.item.ItemStack;

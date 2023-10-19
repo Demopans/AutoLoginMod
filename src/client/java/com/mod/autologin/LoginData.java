@@ -1,10 +1,9 @@
-package fr.atesab.autologin;
+package com.mod.autologin;
 
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
-import fr.atesab.autologin.LoginData.LoginDataType;
 import net.minecraft.client.resources.I18n;
 
 public class LoginData {

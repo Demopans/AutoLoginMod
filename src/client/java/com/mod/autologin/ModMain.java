@@ -1,4 +1,4 @@
-package fr.atesab.autologin;
+package com.mod.autologin;
 
 import java.io.File;
 import java.security.MessageDigest;
@@ -7,15 +7,11 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.mod.autologin.gui.GuiAlButton;
 import com.google.gson.Gson;
 
-import fr.atesab.autologin.LoginData.LoginDataType;
-import fr.atesab.autologin.gui.GuiAlButton;
-import fr.atesab.autologin.gui.GuiOption;
-import fr.atesab.autologin.gui.GuiAlButton.TextAnimation;
-import fr.atesab.autologin.gui.GuiPasswordBox;
-import fr.atesab.autologin.gui.GuiPasswordField;
-import fr.atesab.autologin.gui.ModGuiFactory;
+import com.mod.autologin.gui.GuiOption;
+import com.mod.autologin.gui.GuiPasswordField;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
@@ -88,7 +84,7 @@ public class ModMain {
 	private static final Minecraft mc = Minecraft.getMinecraft();
 	private static final AutoLoginSkin SKIN_AL = new AutoLoginSkin() {
 		private int skinCursor = 0;
-		private TextAnimation[] anims = { GuiAlButton.TA_SWITCH_AQUA, GuiAlButton.TA_SWITCH_GREEN,
+		private GuiAlButton.TextAnimation[] anims = { GuiAlButton.TA_SWITCH_AQUA, GuiAlButton.TA_SWITCH_GREEN,
 				GuiAlButton.TA_SWITCH_PURPLE, GuiAlButton.TA_SWITCH_RED, GuiAlButton.TA_SWITCH_YELLOW };
 
 		@Override

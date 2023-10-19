@@ -1,4 +1,4 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import java.util.Set;
 

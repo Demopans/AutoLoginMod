@@ -1,13 +1,11 @@
-package fr.atesab.autologin.gui;
+package com.mod.autologin.gui;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Consumer;
 
-import fr.atesab.autologin.AutoLoginSkin;
-import fr.atesab.autologin.ModMain;
+import com.mod.autologin.ModMain;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;

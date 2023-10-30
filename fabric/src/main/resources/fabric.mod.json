@@ -16,16 +16,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.demopans.fabric.ExampleModFabric"
+      "net.examplemod.fabric.ExampleModFabric"
     ]
   },
-  "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
-  ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.20.2",
+    "minecraft": ">=1.20.1",
     "architectury": ">=9.1.12"
   }
 }

@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.function.Supplier;
+import java.sql.Time;
 
 public class ExampleMod {
     public static final String MOD_ID = "examplemod";
@@ -32,6 +33,6 @@ public class ExampleMod {
         TABS.register();
         ITEMS.register();
         
-        System.out.println(ExampleExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
+        System.out.printf("%d [Console] %s%n", System.currentTimeMillis(),ExampleExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }
 }

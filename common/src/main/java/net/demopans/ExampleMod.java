@@ -12,7 +12,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.function.Supplier;
-import java.sql.Time;
+
+import net.demopans.core.*;
 
 public class ExampleMod {
     public static final String MOD_ID = "examplemod";
@@ -28,11 +29,14 @@ public class ExampleMod {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
     public static final RegistrySupplier<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () ->
             new Item(new Item.Properties().arch$tab(ExampleMod.EXAMPLE_TAB)));
-    
+
+    /**
+     * inits the mod on start
+     */
     public static void init() {
         TABS.register();
         ITEMS.register();
-        
+        NetIO.register();
         System.out.printf("%d [Console] %s%n", System.currentTimeMillis(),ExampleExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }
 }
